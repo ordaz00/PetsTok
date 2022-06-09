@@ -37,10 +37,12 @@ function addActions(buttons){
 }
 
 function switchPage(){
+  //switch to the add new page
   window.location = "/tiktokpets.html";
 }
 
 function goToGame(){
+  //Switch to the game page
   window.location = "/compare.html";
 }
 
