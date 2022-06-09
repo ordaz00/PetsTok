@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo:wght@300;400;700&display=swap');
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1{
+  font-size: 48px;
+  font-family: boogaloo;
+}
+#titleBlock{
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+  width: 50%;
+  margin-left: 35%;
+}
+#myVideos{
+  background: rgba(238,29,82,.9);
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  height: 48px;
+  width: 150px;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+#myVideos:hover{
+  background: rgb(238,29,82);
+}
+#dataTile{
+  width: 450px;
+  height: 425px;
+  margin: 50px;
+  margin-bottom: 30px;
+  padding-top: 35px;
+  border: 2px solid rgb(0,0,0);
+  border-radius: 12px;
+  background: linear-gradient(115deg, rgba(238,29,82,.9) 5%, rgb(105,201,208) 85%);
+}
+h3{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+}
+#innerTile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#continue{
+  background-color: rgba(238,29,82,0.9);
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  height: 48px;
+  width: 150px;
+  border-radius: 12px;
+}
+#continue:hover{
+  background: rgb(238,29,82);
+}
+label{
+  display: block;
+  padding-top: 35px;
+  font-size: 16px;
+}
+input{
+  display: block;
+  height: 48px;
+  width: 350px;
+  border: 1px solid rgb(0,0,0);
+  border-radius: 12px;
+}
+.inputBlock{
+  color: white;
+  align-items: center;
+}
+
+@media(max-width: 900px){
+  #titleBlock{
+    margin-left:0px;
+    width: 450px;
+  }
+  
+}
+@media(max-width: 480px){
+  h1{
+    margin-top: 7px;
+    font-size: 32px;
+  }
+  h3{
+    font-size: 20px;
+  }
+  #myVideos{
+    font-size: 16px;
+  }
+  #continue{
+    font-size: 16px;
+  }
+  #titleBlock{
+    width: 400px;
+  }
+  #dataTile{
+    width: 400px;
+  }
+}
