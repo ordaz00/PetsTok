@@ -3,6 +3,9 @@
 let addNew = document.getElementById("myVideos");
 addNew.addEventListener("click", switchPage);
 
+let playGame = document.getElementById("continue");
+playGame.addEventListener("click", goToGame);
+
 
 function makeDivs(){
   for (let i=0; i<8; i++) {
@@ -35,6 +38,10 @@ function addActions(buttons){
 
 function switchPage(){
   window.location = "/tiktokpets.html";
+}
+
+function goToGame(){
+  window.location = "/compare.html";
 }
 
 function buttonAction(i){
